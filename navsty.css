@@ -285,14 +285,14 @@ first_section_starts
 .img .signature{
     position: absolute;
     bottom: -15px;
-    left: 30%;
+    left: 20%;
 }
 
 .signature p{
-    color: rgb(224, 220, 220);
+    color: rgb(148, 148, 223);
     font-family: cursive;
-    font-size: 29px;
     letter-spacing: 3px;
+    font-size: 35px;
 }
 
 @media screen and (max-width:900px) {
@@ -324,6 +324,13 @@ first_section_starts
         border: 2px solid black;
         transform: rotate(15deg);
         position: relative;
+    }
+
+    .signature p{
+        color: rgb(148, 148, 223);
+        font-family: cursive;
+        letter-spacing: 3px;
+        font-size: 25px;
     }
 }    
 .second-section .style{
