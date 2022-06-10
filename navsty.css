@@ -396,3 +396,11 @@ first_section_starts
 .text{
     margin-bottom: 25px;
 }
+
+/* --------------------------
+our_collections
+------------------------------ */
+.collection{
+    background-color: pink;
+    height: 200vh;
+}
