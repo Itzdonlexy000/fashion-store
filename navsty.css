@@ -6,7 +6,7 @@ global_styles
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /* border: 2px solid blue;            */
+    /* border: 2px solid blue;                */
 }
 
 .container{
@@ -253,27 +253,97 @@ first_section_starts
     max-width: 100%;
     background-color: #ffa69e;
     height: 100vh;
-    padding: 20px;
+    padding: 20px; 
 }
 
 .second-section-title{
-    margin: 60px 0 30px 0;
+    margin: auto;
+    width: 100%;
 }
 .second-section-title h1{
-    position: relative;
-    color: rgb(17, 17, 17);
+    color: rgb(19, 18, 18);
     font-size: 42px;
     text-align: center;
     text-transform: capitalize;
 }
 
-.second-section-title h1::after{
-    content: '';
+.second-section .container{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+@media screen and (max-width:1000px) {
+    .second-section .container {
+        width: 100%;
+    }
+
+    .second-section p{
+        font-size: 13px;
+    }
+
+    .second-section .img{
+        width: 160px;
+        height: 340px;
+        border-radius: 100px;
+    }
+
+    .second-section .style{
+        align-items: center;
+    }
+
+    .second-section .text-box{
+        padding: 30px 10px;
+    }
+    .second-section .dash{
+        width: 160px;
+        height: 340px;
+        border-radius: 100px;
+        border: 2px solid black;
+        transform: rotate(25deg);
+        position: relative;
+    }
+}    
+.second-section .style{
+    flex: 0 0 55%;
+    position: relative;
+    display: flex; 
+    justify-content: center; 
+}
+
+.dash{
+    width: 200px;
+    height: 360px;
+    border-radius: 200px;
+    border: 2px solid black;
+    transform: rotate(25deg);
+    position: relative;
+    box-shadow: 20px #ffa69e;
+    z-index: 1;
+}
+
+.img{
+    width: 200px;
+    height: 350px;
+    border-radius: 200px;
+    background: url(images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
     position: absolute;
-    left: 0;
-    top: 0;
-    height: 15px;
-    width: 50%;
+    z-index: 2;
+}
+.text-box{
+    flex: 0 0 45%;
+    padding-top: 30px;
+    color: black;
+}
+
+.text-box h1{
     color: white;
-    border-radius: 5px;
+}
+
+.text{
+    margin-bottom: 25px;
 }
