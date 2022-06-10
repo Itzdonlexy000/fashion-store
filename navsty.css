@@ -6,7 +6,7 @@ global_styles
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /* border: 2px solid blue;                         */
+    /* border: 2px solid blue;                           */
 }
 
 .container{
@@ -402,7 +402,7 @@ our_collections
 ------------------------------ */
 .collection{
     background-color: white;
-    height: 300vh;
+    height: fit-content;
     padding-top: 10%;
 }
 
@@ -414,7 +414,7 @@ our_collections
 
 .position{
     width: 100%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -422,9 +422,9 @@ our_collections
 
 .small-container{
     background-color: rgb(233, 232, 232);
-    width: 95%;
+    width: 98%;
     margin: auto;
-    height: 98%;
+    height: fit-content;
 }
 
 .sub-title{
@@ -454,11 +454,122 @@ our_collections
     font-weight: 400;
 }
 
+.small-container .row{
+    /* align-items: center; */
+    justify-content: center;
+}
 .line{
     height: 1px;
     width: 95%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 1px;
     background-color: wheat;
 }
+
+.c-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 190px;
+    padding-top: 5px;
+    margin: 10px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.collection .second-section .style{
+    /* flex: 0 0 65%; */
+    position: relative;
+    /* display: flex;  */
+    /* justify-content: center;  */
+}
+
+
+.collection .dash{
+    width: 120px;
+    height: 200px;
+    border-radius: 120px;
+    border: 2px solid black;
+    transform: rotate(25deg);
+    position: relative;
+    box-shadow: 20px #ffa69e;
+    z-index: 1;
+}
+
+.collection .img{
+    width: 120px;
+    height: 200px;
+    border-radius: 120px;
+    background: url(images/about\ \(2\).jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.text-area{
+    margin: 0 5px;
+}
+.text-area h3{
+    color: #ffa69e;
+    font-size: 17px;
+}
+
+.text-area h1{
+    font-size: 15px;
+}
+
+.text-area p{
+    font-size: 13px;
+    font-family: cursive;
+}
+
+ .cart{
+    position: absolute;
+    bottom: -36px;
+    right: -22px;
+}
+
+.fa-shopping-cart{
+    color: #F2A138;
+}
+
+.collection .img2{
+    width: 120px;
+    height: 200px;
+    border-radius: 120px;
+    background: url(images/s1.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+.collection .img3{
+    width: 120px;
+    height: 200px;
+    border-radius: 120px;
+    background: url(images/pexels-dina-nasyrova-3808229.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img4{
+    width: 120px;
+    height: 200px;
+    border-radius: 120px;
+    background: url(images/s5.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
