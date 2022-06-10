@@ -275,6 +275,7 @@ first_section_starts
 
 .second-section-title p{
     text-align: center;
+    font-family: cursive;
 }
 .second-section .container{
     width: 70%;
