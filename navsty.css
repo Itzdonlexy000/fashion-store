@@ -448,15 +448,15 @@ our_collections
 .sub-links a{
     font-family: cursive;
     color: wheat;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
     font-size: 16px;
     font-weight: 400;
 }
 
 .line{
     height: 1px;
-    width: 98%;
+    width: 95%;
     margin: auto;
     margin-top: 10px;
     border-radius: 1px;
