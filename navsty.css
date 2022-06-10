@@ -284,12 +284,12 @@ first_section_starts
 
 .img .signature{
     position: absolute;
-    bottom: -15px;
+    bottom: -26px;
     left: 20%;
 }
 
 .signature p{
-    color: rgb(148, 148, 223);
+    color: black;
     font-family: cursive;
     letter-spacing: 3px;
     font-size: 35px;
@@ -327,7 +327,7 @@ first_section_starts
     }
 
     .signature p{
-        color: rgb(148, 148, 223);
+        color: black;
         font-family: cursive;
         letter-spacing: 3px;
         font-size: 25px;
