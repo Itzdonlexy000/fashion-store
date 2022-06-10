@@ -327,7 +327,7 @@ first_section_starts
     width: 200px;
     height: 350px;
     border-radius: 200px;
-    background: url(images/about.jpg);
+    background: url(images/about\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
