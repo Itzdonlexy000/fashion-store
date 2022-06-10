@@ -6,7 +6,7 @@ global_styles
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-     /* border: 2px solid blue;                      */
+    /* border: 2px solid blue;                        */
 }
 
 .container{
@@ -401,6 +401,56 @@ first_section_starts
 our_collections
 ------------------------------ */
 .collection{
-    background-color: pink;
-    height: 200vh;
+    background-color: white;
+    height: 300vh;
+    padding-top: 10%;
 }
+
+@media screen and (max-width:900px) {
+    .collection{
+        padding-top: 25%;
+    }
+}
+
+.position{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-container{
+    background-color: rgb(233, 232, 232);
+    width: 95%;
+    margin: auto;
+    height: 95%;
+}
+
+.sub-title{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub-links li{
+     list-style-type: none; 
+}
+
+.sub-links a{
+    font-family: cursive;
+    color: wheat;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
