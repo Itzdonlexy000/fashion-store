@@ -6,7 +6,7 @@ global_styles
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /* border: 2px solid blue;                */
+    border: 2px solid blue;                
 }
 
 .container{
@@ -198,10 +198,10 @@ first_section_starts
 
 @keyframes myAnimation{
     from{
-        left: -20%;
+        left: -10%;
     }
     to{
-        left: 20%;
+        left: 10%;
     }
 }
 
@@ -218,16 +218,26 @@ first_section_starts
 .first-section-text{
     text-align: center;
     width: 100%;
+    margin: auto;
 }
 
 .first-section-text h1 {
     padding: 20px 20px 20px 20px;
-    font-size: 70px;
+    font-size: 80px;
     color: rgb(235, 232, 232);
 }
 
-.first-section h1 span{
-    font-size: 85px;
+@media screen and (max-width:900px) {
+    .first-section h1{
+        font-size: 55px;
+    }
+    .first-section h3 {
+        font-size: 22px;
+    }
+}
+
+.first-section h1{
+    font-size: 7;
     color: transparent;
     background: url(images/back.png);
     -webkit-text-stroke: 1px white;
@@ -241,12 +251,11 @@ first_section_starts
         background-position: 2000px 0;
     }
 }
-.first-section-text p {
+.first-section-text h3 {
     letter-spacing: 4px;
     font-size: 32px;
     margin-bottom: 20px;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
+    color: white;
 }
 
 .second-section{
@@ -261,8 +270,8 @@ first_section_starts
     width: 100%;
 }
 .second-section-title h1{
-    color: rgb(19, 18, 18);
-    font-size: 42px;
+    color: rgb(233, 232, 232);
+    font-size: 32px;
     text-align: center;
     text-transform: capitalize;
 }
@@ -284,9 +293,9 @@ first_section_starts
     }
 
     .second-section .img{
-        width: 160px;
-        height: 340px;
-        border-radius: 100px;
+        width: 140px;
+        height: 300px;
+        border-radius: 140px;
     }
 
     .second-section .style{
@@ -294,12 +303,12 @@ first_section_starts
     }
 
     .second-section .text-box{
-        padding: 30px 10px;
+        padding: 30px 8px;
     }
     .second-section .dash{
-        width: 160px;
-        height: 340px;
-        border-radius: 100px;
+        width: 140px;
+        height: 300px;
+        border-radius: 140px;
         border: 2px solid black;
         transform: rotate(25deg);
         position: relative;
@@ -341,7 +350,7 @@ first_section_starts
 }
 
 .text-box h1{
-    color: white;
+    color: rgb(233, 232, 232);
 }
 
 .text{
