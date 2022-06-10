@@ -1,0 +1,279 @@
+/* ----------
+global_styles
+-------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 2px solid blue;            */
+}
+
+.container{
+    width: 1200px;
+    margin: auto; 
+}
+a{
+    text-decoration: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(235, 233, 233);
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#ffa69e, black);
+}
+
+
+/* -------------
+navigation_bar
+---------------- */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffa69e; 
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 33px;
+    color: wheat;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    color: wheat;
+    display: flex;
+    font-size: 17px;
+    transition: .5s;
+}
+
+.nav-links a:hover{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.burger div {
+    width: 23px;
+    height: 3px;
+    background-color: wheat;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+.burger{
+    display: none;
+}
+
+@media screen and (max-width:780px) {
+    body{
+        position: relative;
+    }
+    .burger{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0;
+        top: 12vh;
+        height: 88vh;
+        background: linear-gradient(to bottom right,#ffa69e, black );
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+}
+
+.nav-active{
+    transform: translateX(0%);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+   transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+/* -------
+first_section_starts
+------------ */
+.first-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/s2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+    padding-top: 14%;
+    padding-bottom: 30px;
+}
+
+.first-section .container{
+    max-width: 1000px;
+    min-height: 40%;
+    margin: auto;
+}
+.blogo{
+    margin: auto;
+    width: 60%;
+    border-radius: 70px;
+    height: 120px;
+    background: linear-gradient(#ffa69e, black); 
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:1050px) {
+    .first-section{
+        padding-top: 25%;
+    }
+    .first-section .container{
+        width: 70%;
+    }
+    .first-section .row{
+        display: block;
+    }
+    .blogo{
+        width: 100%;
+    }
+}
+.blogo p{
+    position: relative;
+    font-size: 55px;
+    font-weight: 600;
+    color: rgb(233, 232, 232);
+}
+.blogo p:before{ 
+    position: absolute;
+    content: '';
+    top: 18%;
+    left: -60px;
+    height: 48px;
+    width: 63%;
+    background: rgb(233, 232, 232);
+    border-top-left-radius: 100px;
+}
+.blogo p:after{
+    position: absolute;
+    content: '';
+    bottom: 4px;
+    left: -70px;
+    height: 9px;
+    width: 190%;
+    background: rgb(233, 232, 232);
+}
+
+@keyframes myAnimation{
+    from{
+        left: -20%;
+    }
+    to{
+        left: 20%;
+    }
+}
+
+.blogo{
+    animation-name: myAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+
+
+.first-section-text{
+    text-align: center;
+    width: 100%;
+}
+
+.first-section-text h1 {
+    padding: 20px 20px 20px 20px;
+    font-size: 70px;
+    color: rgb(235, 232, 232);
+}
+
+.first-section h1 span{
+    font-size: 85px;
+    color: transparent;
+    background: url(images/back.png);
+    -webkit-text-stroke: 1px white;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 15s linear infinite;
+}
+
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.first-section-text p {
+    letter-spacing: 4px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.second-section{
+    max-width: 100%;
+    background-color: #ffa69e;
+    height: 100vh;
+    padding: 20px;
+}
+
+.second-section-title{
+    margin: 60px 0 30px 0;
+}
+.second-section-title h1{
+    position: relative;
+    color: rgb(17, 17, 17);
+    font-size: 42px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.second-section-title h1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 15px;
+    width: 50%;
+    color: white;
+    border-radius: 5px;
+}
