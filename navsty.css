@@ -278,36 +278,38 @@ first_section_starts
 
 .second-section .container{
     width: 70%;
-    height: 70%;
+    height: fit-content;
     margin: auto;
-    margin-top: 70px;
+    /* margin-top: 10%; */
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
     .second-section .container {
         width: 100%;
+        /* height: fit-content; */
     }
     .second-section p{
         font-size: 12px;
     }
 
     .second-section .img{
-        width: 140px;
-        height: 300px;
-        border-radius: 140px;
+        width: 130px;
+        height: 280px;
+        border-radius: 130px;
     }
 
     .second-section .style{
-        align-items: center;
+         align-items: center; 
+         justify-content: left;
     }
 
     .second-section .text-box{
         padding: 30px 0;
     }
     .second-section .dash{
-        width: 140px;
-        height: 300px;
-        border-radius: 140px;
+        width: 130px;
+        height: 280px;
+        border-radius: 130px;
         border: 2px solid black;
         transform: rotate(15deg);
         position: relative;
