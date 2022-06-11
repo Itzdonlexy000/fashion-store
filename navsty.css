@@ -827,12 +827,12 @@ our_collections
     width: 100%;
 }
 
-.collection .img13{
+.collection .img19{
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    border: 2px solid #ffa69e;
-    background: url(images/fash19.jpg);
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash16.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -840,12 +840,12 @@ our_collections
     z-index: 2;
 }
 
-.collection .img14{
+.collection .img20{
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    border: 2px solid #ffa69e;
-    background: url(images/fash18.jpg);
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash22.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -853,12 +853,12 @@ our_collections
     z-index: 2;
 }
 
-.collection .img15{
+.collection .img21{
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    border: 2px solid #ffa69e;
-    background: url(images/fash26.jpg);
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash24.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -866,12 +866,12 @@ our_collections
     z-index: 2;
 }
 
-.collection .img16{
+.collection .img22{
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    border: 2px solid #ffa69e;
-    background: url(images/fash17.jpg);
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash23.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -879,12 +879,12 @@ our_collections
     z-index: 2;
 }
 
-.collection .img17{
+.collection .img23{
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    border: 2px solid #ffa69e;
-    background: url(images/fash20.jpg);
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash21.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -892,12 +892,12 @@ our_collections
     z-index: 2;
 }
 
-.collection .img18{
+.collection .img24{
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    border: 2px solid #ffa69e;
-    background: url(images/fash25.jpg);
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash27.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
