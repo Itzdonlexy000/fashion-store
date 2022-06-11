@@ -489,12 +489,26 @@ our_collections
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
+    width: 180px;
     padding-top: 5px;
     margin: 10px;
     height: 300px;
     border-radius: 10px;
     background-color: white;
+}
+
+@media screen and (max-width:900px) {
+    .c-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        padding-top: 5px;
+        margin: 10px;
+        height: 300px;
+        border-radius: 10px;
+        background-color: white;
+    }
 }
 
 .collection .second-section .style{
@@ -540,12 +554,13 @@ our_collections
 .text-area p{
     font-size: 13px;
     font-family: cursive;
+    color: wheat;
 }
 
  .cart{
     position: absolute;
-    bottom: -36px;
-    right: -22px;
+    bottom: -26px;
+    right: -12px;
 }
 
 .fa-shopping-cart{
