@@ -489,7 +489,7 @@ our_collections
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 170px;
+    width: 150px;
     padding-top: 5px;
     margin: 10px;
     height: 300px;
@@ -506,9 +506,9 @@ our_collections
 
 
 .collection .dash{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 100px;
+    height: 210px;
+    border-radius: 90px;
     border: 2px solid black;
     transform: rotate(25deg);
     position: relative;
@@ -517,9 +517,9 @@ our_collections
 }
 
 .collection .img{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/about\ \(2\).jpg);
     background-size: cover;
     background-position: center;
@@ -556,9 +556,9 @@ our_collections
 }
 
 .collection .img2{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s1.jpg);
     background-size: cover;
     background-position: center;
