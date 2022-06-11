@@ -6,6 +6,7 @@ global_styles
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
     /* border: 2px solid blue;                           */
 }
 
@@ -406,6 +407,7 @@ our_collections
     padding-top: 10%;
 }
 
+
 @media screen and (max-width:900px) {
     .collection{
         padding-top: 35%;
@@ -607,7 +609,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/fash5.jpg);
+    background: url(images/fash6.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -619,7 +621,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/fash1.jpg);
+    background: url(images/fash13.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -631,7 +633,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/fash7.jpg);
+    background: url(images/fash12.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -643,7 +645,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/s5.jpg);
+    background: url(images/fash8.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -655,7 +657,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/s5.jpg);
+    background: url(images/fash7.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -667,7 +669,7 @@ our_collections
     width: 120px;
     height: 200px;
     border-radius: 120px;
-    background: url(images/s5.jpg);
+    background: url(images/fash9.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -679,7 +681,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/s5.jpg);
+    background: url(images/fash10.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -691,7 +693,7 @@ our_collections
     width: 110px;
     height: 210px;
     border-radius: 110px;
-    background: url(images/s5.jpg);
+    background: url(images/fash11.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -699,3 +701,9 @@ our_collections
     z-index: 2;
 }
 
+.winter{
+    background-color: white;
+    margin-top: 30px;
+    height: 200vh;
+    width: 100%;
+}
