@@ -493,15 +493,12 @@ our_collections
     padding-top: 5px;
     margin: 10px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: white;
 }
 
 .collection .second-section .style{
-    /* flex: 0 0 65%; */
     position: relative;
-    /* display: flex;  */
-    /* justify-content: center;  */
 }
 
 
@@ -509,7 +506,7 @@ our_collections
     width: 100px;
     height: 210px;
     border-radius: 90px;
-    border: 2px solid black;
+    border: 2px solid rgb(233, 232, 232);
     transform: rotate(25deg);
     position: relative;
     box-shadow: 20px #ffa69e;
@@ -567,9 +564,9 @@ our_collections
     z-index: 2;
 }
 .collection .img3{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/pexels-dina-nasyrova-3808229.jpg);
     background-size: cover;
     background-position: center;
@@ -579,9 +576,9 @@ our_collections
 }
 
 .collection .img4{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -591,9 +588,9 @@ our_collections
 }
 
 .collection .img5{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -603,9 +600,9 @@ our_collections
 }
 
 .collection .img6{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -615,9 +612,9 @@ our_collections
 }
 
 .collection .img7{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -627,9 +624,9 @@ our_collections
 }
 
 .collection .img8{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -639,9 +636,9 @@ our_collections
 }
 
 .collection .img9{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -663,9 +660,9 @@ our_collections
 }
 
 .collection .img11{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
@@ -675,9 +672,9 @@ our_collections
 }
 
 .collection .img12{
-    width: 120px;
-    height: 200px;
-    border-radius: 120px;
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
     background: url(images/s5.jpg);
     background-size: cover;
     background-position: center;
