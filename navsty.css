@@ -441,6 +441,7 @@ our_collections
 
 .small-container{
     background-color: rgb(233, 232, 232);
+    padding: 20px 0;
     width: 98%;
     margin: auto;
     height: fit-content;
@@ -727,7 +728,7 @@ our_collections
 
 .winter{
     background-color: white;
-    margin-top: 30px;
+    margin-top: 20px;
     height: fit-content;
     width: 100%;
 }
@@ -740,7 +741,173 @@ our_collections
     color: #ffa69e;
 }
 
+.collection .img13{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash19.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img14{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash18.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img15{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash26.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img16{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash17.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img17{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash20.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img18{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash25.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
 .summer{
+    margin-top: 20px;
+    background-color: white;
+    margin-top: 30px;
+    height: fit-content;
+    width: 100%;
+}
+
+.collection .img13{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash19.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img14{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash18.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img15{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash26.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img16{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash17.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img17{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash20.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img18{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid #ffa69e;
+    background: url(images/fash25.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+
+.accessories{
+    margin-top: 20px;
     background-color: white;
     margin-top: 30px;
     height: fit-content;
