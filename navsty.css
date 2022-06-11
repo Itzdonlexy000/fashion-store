@@ -6,7 +6,7 @@ global_styles
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    border: 2px solid blue;                
+    /* border: 2px solid blue;                 */
 }
 
 .container{
@@ -135,14 +135,16 @@ first_section_starts
     background-position: center;
     min-height: 100vh;
     max-width: 100%;
-    padding-top: 14%;
-    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .first-section .container{
     max-width: 1000px;
     min-height: 40%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 .blogo{
     margin: auto;
@@ -157,17 +159,11 @@ first_section_starts
 }
 
 @media screen and (max-width:1050px) {
-    .first-section{
-        padding-top: 25%;
-    }
     .first-section .container{
         width: 70%;
     }
-    .first-section .row{
-        display: block;
-    }
     .blogo{
-        width: 100%;
+        width: 100%; 
     }
 }
 .blogo p{
