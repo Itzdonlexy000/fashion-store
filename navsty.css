@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                           */
+    /* border: 2px solid blue;                            */
 }
 
 .container{
@@ -918,4 +918,110 @@ our_collections
     margin-top: 30px;
     height: fit-content;
     width: 100%;
+}
+
+.collection .img25{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash29.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img26{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash33.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img27{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash30.jpg);
+    background-size: cover;
+    background-position: left;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img28{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash28.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img29{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash32.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.collection .img30{
+    width: 110px;
+    height: 210px;
+    border-radius: 110px;
+    border: 2px solid rgb(233, 232, 232);
+    background: url(images/fash31.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: translate(-20deg);
+    position: absolute;
+    z-index: 2;
+}
+
+.noofproduct{
+    display: flex;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    justify-content: center;
+    padding: 10px;
+}
+
+.noofproduct h1{
+    -webkit-text-stroke: 2px #ffa69e;
+}
+
+.noofproduct {
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+@keyframes animation {
+    from{
+        font-size: 13px;
+    }
+    to{
+        font-size: 18px;
+    }
 }
