@@ -472,6 +472,11 @@ our_collections
     margin-left: 12px;
     font-size: 16px;
     font-weight: 400;
+    transition-duration: 2s;
+}
+
+.sub-links a:hover{
+    color: #ffa69e;
 }
 
 .small-container .row{
