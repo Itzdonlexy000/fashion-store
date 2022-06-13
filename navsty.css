@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-     /* border: 2px solid blue;                                    */
+    /* border: 2px solid blue;                                    */ 
 }
 
 .container{
@@ -1152,16 +1152,9 @@ testimonials
 
 /* ------------
 contact_section
----------------- */
-
+----------------*/
 .contact-section{
-    background-color: palegreen;
-    width: 100%;
+    background-color: wheat;
     height: 100%;
-}
-
-.contact-section .container{
-    height: 1000px;
-    width: 10px;
-    color: red;
+    width: 100%;
 }
