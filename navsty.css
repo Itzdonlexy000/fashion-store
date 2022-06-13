@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                            */
+     /* border: 2px solid blue;                                  */
 }
 
 .container{
@@ -1024,4 +1024,114 @@ our_collections
     to{
         font-size: 18px;
     }
+}
+
+.testimonials{
+    margin: auto;
+    max-width: 100%;
+    min-height: 100vh;
+    padding-top: 70px;
+    background-color: wheat;
+}
+
+.testimonials .title{
+    width: 70%;
+    margin: auto;
+}
+
+.title h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #ffa69e;
+}
+
+.title .line{
+    width: 34%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #ffa69e;
+    text-align: center;
+}
+
+.testimonials .title p{
+    padding: 15px 0;
+    font-family: cursive;
+    text-align: center;
+}
+
+.testimonials .small-container{
+    max-width: 1200px;
+    height: fit-content;
+    background-color: wheat;
+}
+
+.t-box{
+    min-height: 400px;
+    max-width: 380px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 5px 5px 5px;
+    position: relative;
+}
+
+.t-box{
+    text-align: center;
+}
+
+.t-img{
+    position: absolute;
+    transform: translate(120% , -25%);
+    margin: auto;
+    background-color: wheat;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+}
+
+.testimonials img{
+    padding: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+}
+
+.t-text{
+    background-color: #ffa69e;
+    border-radius: 5px;
+    padding-top: 70px;
+    line-height: 28px;
+    width: 90%;
+    height: 85%;
+    margin: auto;
+}
+
+.t-text p{
+    color: rgb(24, 24, 24);
+    position: relative;
+}
+
+.t-text p::before{
+    content: '\93';
+    font-size: 70px;
+    position: relative;
+    color: wheat;
+}
+.t-text p::after{
+    content: '\94';
+    font-size: 70px;
+    position: absolute;
+    right: 6px;
+    bottom: -25px;
+    color: wheat;
+}
+
+.t-text h2{
+    font-size: 19px;
+    color: black;
+    margin-top: 15px;
+}
+
+.t-text span{
+    font-size: 14px;
 }
