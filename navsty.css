@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-     /* border: 2px solid blue;                                  */
+     /* border: 2px solid blue;                                   */
 }
 
 .container{
@@ -1030,7 +1030,7 @@ our_collections
     margin: auto;
     max-width: 100%;
     min-height: 100vh;
-    padding-top: 70px;
+    padding-top: 90px;
     background-color: wheat;
 }
 
@@ -1047,7 +1047,7 @@ our_collections
 }
 
 .title .line{
-    width: 34%;
+    width: 36%;
     height: 4px;
     border-radius: 10px;
     background-color: #ffa69e;
@@ -1055,9 +1055,11 @@ our_collections
 }
 
 .testimonials .title p{
-    padding: 15px 0;
-    font-family: cursive;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    font-size: 19px;
 }
 
 .testimonials .small-container{
@@ -1071,13 +1073,10 @@ our_collections
     max-width: 380px;
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 5px 5px 5px;
     position: relative;
-}
-
-.t-box{
     text-align: center;
 }
+
 
 .t-img{
     position: absolute;
@@ -1128,10 +1127,11 @@ our_collections
 
 .t-text h2{
     font-size: 19px;
-    color: black;
+    color: wheat;
     margin-top: 15px;
 }
 
 .t-text span{
     font-size: 14px;
+    color: rgb(75, 73, 73);
 }
