@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                                    */ 
+    /* border: 2px solid blue;                                      */
 }
 
 .container{
@@ -406,9 +406,26 @@ second_section_starts
 our_collections
 ------------------------------ */
 .collection{
-    background-color: white;
+    background-color: var(--primary-color);
     height: fit-content;
     padding-top: 10%;
+}
+
+:root{
+     --primary-color: white; 
+     --secondary-color: rgb(233, 232, 232); 
+}
+
+.dark-theme{
+    --primary-color: black;
+    --secondary-color: rgb(24, 23, 23);
+}
+
+#icon{
+    width: 40px;
+    float: right;
+    color: black;
+    cursor: pointer;
 }
 
 
@@ -444,7 +461,7 @@ our_collections
 }
 
 .small-container{
-    background-color: rgb(233, 232, 232);
+    background-color: var(--secondary-color);
     padding: 20px 0;
     width: 98%;
     margin: auto;
@@ -506,7 +523,7 @@ our_collections
     margin: 10px;
     height: 300px;
     border-radius: 10px;
-     background-color: white; 
+     background-color: var(--primary-color); 
 }
 
 @media screen and (max-width:900px) {
@@ -519,7 +536,7 @@ our_collections
         margin: 10px;
         height: 300px;
         border-radius: 10px;
-        background-color: white;
+        background-color: var(--primary-color);
     }
 }
 
@@ -736,7 +753,7 @@ our_collections
 }
 
 .winter{
-    background-color: white;
+    background-color: var(--primary-color);
     margin-top: 20px;
     height: fit-content;
     width: 100%;
@@ -830,7 +847,7 @@ our_collections
 
 .summer{
     margin-top: 20px;
-    background-color: white;
+    background-color: var(--primary-color);
     margin-top: 30px;
     height: fit-content;
     width: 100%;
@@ -917,10 +934,8 @@ our_collections
 
 .accessories{
     margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: white;
+    background-color: var(--primary-color);
     margin-top: 30px;
-    height: fit-content;
     width: 100%;
 }
 
@@ -1015,7 +1030,7 @@ our_collections
 }
 
 .noofproduct {
-    animation-name: animation;
+    animation-name: animation; 
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-fill-mode: both;
