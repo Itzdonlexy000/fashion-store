@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-     border: 2px solid blue;                                      
+     /* border: 2px solid blue;                                       */
 }
 
 .container{
@@ -1096,7 +1096,7 @@ testimonials
     max-width: 340px;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    /* position: relative; */
     text-align: center;
 }
 
