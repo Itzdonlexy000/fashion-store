@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                                      */
+     border: 2px solid blue;                                      
 }
 
 .container{
@@ -1093,7 +1093,7 @@ testimonials
 
 .t-box{
     min-height: 350px;
-    max-width: 380px;
+    max-width: 340px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -1103,7 +1103,7 @@ testimonials
 
 .t-img{
     position: absolute;
-    transform: translate(120% , -25%);
+    transform: translate(105% , -25%);
     margin: auto;
     background-color: wheat;
     width: 110px;
@@ -1134,23 +1134,6 @@ testimonials
     font-family: 'Times New Roman', Times, serif;
     margin-right: 10px;
     margin-left: 10px;
-}
-
-.t-text p::before{
-    content: '\93';
-    font-size: 70px;
-    position: absolute;
-    color: wheat;
-    left: -6px;
-    top: -10px;
-}
-.t-text p::after{
-    content: '\94';
-    font-size: 70px;
-    position: absolute;
-    right: -6px;
-    bottom: -38px;
-    color: wheat;
 }
 
 .t-text h2{
