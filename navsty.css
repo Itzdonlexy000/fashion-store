@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                                       */
+    /* border: 2px solid blue;                                        */
 }
 
 .container{
@@ -1096,7 +1096,6 @@ testimonials
     max-width: 340px;
     display: flex;
     flex-wrap: wrap;
-    /* position: relative; */
     text-align: center;
 }
 
@@ -1151,34 +1150,64 @@ testimonials
 /* ------------
 contact_section
 ----------------*/
-.contact{
-    width: 100%;
-    height: 100vh;
+.contac{
+    margin: auto;
+    max-width: 100%;
+    min-height: 100vh;
+    padding-top: 90px;
     background-color: wheat;
 }
 
-.contact .title{
-    padding-top: 70px;
+.contac .title{
+    width: 60%;
+    margin: auto;
 }
 
-.contact .title h1{
+.contac .title h1{
     color: rgb(121, 118, 118);
 }
 
-.container{
-    padding: 20px 10px;
+.contac .title h1{
+    color: rgb(121, 118, 118);
 }
 
-form{
-    width: 450px;
-    background-color: white;
-    height: fit-content; 
+.contac .container{
+    max-width: 80%;
+    height: fit-content;
+}
+
+.contac .row{
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+}
+
+ @media screen and (max-width:900px) { 
+    .contac .container{
+        max-width: 80%;
+        height: fit-content;
+        display: block;
+    }
+}
+
+.map{
+    width: 400px;
+    min-height: 400px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+.form{
+    width: 400px;
+    margin: 10px 20px;
+    background-color: white; 
     height: 450px;
     border-radius: 10px;
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
     justify-content: center;
 }
 
@@ -1187,10 +1216,10 @@ form{
 }
 
 input, textarea{
-    width: 300px;
+    width: 370px;
     border: 0; 
-    margin: 10px 0;
-    padding: 20px;
+    margin: 15px 0; 
+    padding: 20px; 
     outline: none;
     border-radius: 10px;
     font-size: 17px;
@@ -1198,7 +1227,7 @@ input, textarea{
 }
 
 button{
-    width: 100%;
+    width: 60%;
     background-color: #ffa69e;
     border: 0;
     border-radius: 10px;
