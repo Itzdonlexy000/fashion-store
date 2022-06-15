@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                                          */
+    /* border: 2px solid blue;                                           */
 }
 
 .container{
@@ -1154,7 +1154,7 @@ contact_section
     margin: auto;
     width: 100%;
     padding-top: 90px;
-    height: fit-content;
+    min-height: 100vh;
     background-color: wheat;
 }
 
@@ -1172,8 +1172,7 @@ contact_section
 }
 
 .contac .container{
-    max-width: 80%;
-    height: fit-content;
+    width: 100%;
 }
 
 .contac .row{
@@ -1185,17 +1184,26 @@ contact_section
 
  @media screen and (max-width:900px) { 
     .contac .container{
-        max-width: 80%;
+        max-width: 100%;
         padding: 10px;
         height: fit-content;
         display: block;
     }
+
+    .form{
+        width: 60%;
+    }
+    .contac .title h1{
+        color: rgb(121, 118, 118);
+        font-size: 20px;
+    }
 }
 
 .map{
-    width: 400px;
-    height: 450px; 
+    width: 600px;
+    height: 450px;  
     margin: 0px 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
