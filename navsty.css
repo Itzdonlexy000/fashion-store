@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    border: 2px solid blue;                                         
+    /* border: 2px solid blue;                                          */
 }
 
 .container{
@@ -1238,7 +1238,7 @@ iframe{
 }
 
 input, textarea{
-    width: 370px;
+    width: 90%;
     border: 0; 
     margin: 15px 0; 
     padding: 20px; 
