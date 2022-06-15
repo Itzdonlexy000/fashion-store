@@ -4,18 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="navsty.css">
-    <title>Contact</title>
+    <title>Document</title>
 </head>
 <body>
-    
 
 
-
-    <!----------contact_section_starts------->
-
-
-    
     <nav>
         <div class="logo">
             <h4>F/S</h4>
@@ -35,20 +30,42 @@
             </li>
         </ul>
         </div>
+
         <div class="burger" onclick="navSlide()">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
         </div>
+
     </nav>
-
-
-
     
 
+    <section class="contact">
+
+        <div class="title">
+            <h1>Get in Touch</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <form action="POST" data-netlify="true">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email id" required>
+                        <input type="text" id="phone" placeholder="Phone no." required>
+                        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                        <div class="field">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div>
+                        <button type="submit">Send</button>
+                </form>
+                <div class="contain">
+
+                    <div class="map"></div>
+                </div>
+            </div>
+        </div>
 
 
-    <section class="contact-section">
 
 
 
@@ -61,13 +78,12 @@
 
 
 
-        <!----------contact_section_ends------->
 
 
 
-        <!-------scripts----->
-        <script src="https://use.fontawesome.com/8b7b9f4138.js">  </script>
-        <script src="index.js"></script>
+
+
+
 
 
 
