@@ -48,20 +48,21 @@
 
         <div class="container">
             <div class="row">
-                <form action="POST" data-netlify="true">
-                        <input type="text" id="name" placeholder="Your Name" required>
-                        <input type="email" id="email" placeholder="Email id" required>
-                        <input type="text" id="phone" placeholder="Phone no." required>
-                        <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
-                        <div class="field">
-                            <div data-netlify-recaptcha="true"></div>
-                        </div>
-                        <button type="submit">Send</button>
-                </form>
-                <div class="contain">
-
-                    <div class="map"></div>
-                </div>
+                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <p>
+                      <input type="text" name="name" placeholder="name">
+                    </p>
+                    <p>
+                      <input type="email" name="email" placeholder="email">
+                    </p>
+                    <p>
+                      <textarea name="message" placeholder="how can we help you?"></textarea>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
+                  
             </div>
         </div>
 
