@@ -1154,7 +1154,7 @@ contact_section
 .contact{
     width: 100%;
     height: 100vh;
-    background-color: white;
+    background-color: wheat;
 }
 
 .contact .title{
@@ -1171,8 +1171,8 @@ contact_section
 
 form{
     width: 450px;
-    background-color: #ffa69e;
-    height: 30px;  
+    background-color: white;
+    height: fit-content; 
     height: 450px;
     border-radius: 10px;
     padding: 20px 10px;
@@ -1180,6 +1180,10 @@ form{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.field{
+    margin: 10px;
 }
 
 input, textarea{
@@ -1190,12 +1194,12 @@ input, textarea{
     outline: none;
     border-radius: 10px;
     font-size: 17px;
-    background-color: wheat;
+    background-color: rgb(241, 239, 239);
 }
 
 button{
     width: 40%;
-    background-color: wheat;
+    background-color: #ffa69e;
     border: 0;
     border-radius: 50px;
     padding: 15px;
