@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                                        */
+    border: 2px solid blue;                                         
 }
 
 .container{
@@ -1152,9 +1152,9 @@ contact_section
 ----------------*/
 .contac{
     margin: auto;
-    max-width: 100%;
-    min-height: 100vh;
+    width: 100%;
     padding-top: 90px;
+    height: fit-content;
     background-color: wheat;
 }
 
@@ -1186,6 +1186,7 @@ contact_section
  @media screen and (max-width:900px) { 
     .contac .container{
         max-width: 80%;
+        padding: 10px;
         height: fit-content;
         display: block;
     }
@@ -1193,14 +1194,35 @@ contact_section
 
 .map{
     width: 400px;
-    min-height: 400px;
-    margin: 10px 20px;
+    height: 450px; 
+    margin: 0px 10px;
     border-radius: 10px;
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.mapping{
+    flex: 0 0 70%;
+    background-color: rgb(121, 118, 118);
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+iframe{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.links{
+    flex: 0 0 30%;
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 .form{
     width: 400px;
-    margin: 10px 20px;
+    margin: 10px 0px;
     background-color: white; 
     height: 450px;
     border-radius: 10px;
