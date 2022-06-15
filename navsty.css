@@ -1262,6 +1262,11 @@ form{
 .contac .line{
     margin-bottom: 20px;
 }
+
+.space{
+    margin-right: 10px;
+}
+
 input, textarea{
     width: 90%;
     border: 0; 
