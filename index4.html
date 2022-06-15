@@ -54,20 +54,43 @@
 
 
                 <div class="form">
-                <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
-                    <p>
-                      <input type="text" name="name" placeholder="name">
-                    </p>
-                    <p>
-                      <input type="email" name="email" placeholder="email">
-                    </p>
-                    <p>
-                      <textarea name="message" placeholder="how can we help you?"></textarea>
-                    </p>
-                    
-                      <button type="submit">Send</button>
-                    
-                  </form>
+                        <form
+                        name="contact"
+                        method="POST"
+                        data-netlify-recaptcha="true"
+                        data-netlify="true"
+                        >
+                        <p>
+                            <label>
+                            <input type="text" name="name" placeholder="Your Name">
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                            <input type="text" name="name" placeholder="Email.id">
+                            </label>
+                        </p>
+
+                        <p>
+                            <label>
+                            <input type="text" name="number" placeholder="Phone no.">
+                            </label>
+                        </p>
+
+                        <p>
+                            <label>
+                            <textarea name="message" placeholder="How can we help you?"></textarea>
+                            </label>
+                        </p>
+                        <div data-netlify-recaptcha="true"></div>
+                        <p>
+                            <label>
+                            <button type="submit">Send</button>
+                            </label>
+                        </p>
+                        </form>
+
+
                 </div>
 
 
