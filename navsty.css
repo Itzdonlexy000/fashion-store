@@ -7,7 +7,7 @@ global_styles
     box-sizing: border-box;
     font-family: sans-serif;
     scroll-behavior: smooth;
-    /* border: 2px solid blue;                                             */
+    /* border: 2px solid blue;                                              */
 }
 
 .container{
@@ -139,6 +139,7 @@ nav{
 
 .fa-phone{
     color: white;
+    transition: 1s;
 }
 
 /* -------
@@ -381,7 +382,7 @@ second_section_starts
     width: 200px;
     height: 350px;
     border-radius: 200px;
-    background: url(images/about\ \(2\).jpg);
+    background: url(images/me.jpg);
     background-size: cover;
     background-position: center;
     transform: translate(-20deg);
@@ -619,6 +620,7 @@ our_collections
 
 .fa-shopping-cart{
     color: #ffa69e;
+    transition: 1s;
 }
 
 .collection .img2{
@@ -1197,14 +1199,13 @@ contact_section
 .map{
     width: 600px;
     height: 450px;  
-    margin: 0px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
 }
 .mapping{
-    flex: 0 0 70%;
+    flex: 0 0 60%;
     background-color: rgb(121, 118, 118);
     width: 100%;
     margin-bottom: 10px;
@@ -1213,48 +1214,59 @@ contact_section
 iframe{
     border-radius: 10px;
     width: 100%;
-    height: 100%;
+    height: 100%; 
 }
 
 .links{
     flex: 0 0 30%;
-    background-color: #f19a92;
-    padding: 10px;
+    background: linear-gradient(#f19a92, black);
+    padding: 8px;
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 10px;
     text-align: center;
 }
 
 .links .container{
-    width: 100%;
-    height: 80%;
+    margin-top: 10px;
+    width: 80%;
 }
 .links .row{
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items: center;
     flex-wrap: wrap;
 }
 
+.links .fa-shopping-cart{
+    color: white;
+    transition: 1s;
+}
 .fa-twitter{
     background-color: wheat;
     color: white;
     border-radius: 50px;
     padding: 10px;
+    transition-duration: 1s;
+}
+.fa-twitter:hover{
+    background-color: rgb(124, 124, 223);
 }
 .fa-facebook{
-    background-color: wheat;
     color: white;
-    border-radius: 100px;
-    padding: 10px;
+    transition-duration: 1s;
+}
+.fa-facebook:hover{
+    color: rgb(124, 124, 223);
 }
 .fa-whatsapp{
     background-color: wheat;
     color: white;
     border-radius: 50px;
     padding: 10px;
-
+    transition-duration: 1s;
+}
+.fa-whatsapp:hover{
+    background-color: green;
 }
 
 .links h1{
@@ -1263,12 +1275,12 @@ iframe{
 }
 
 .form{
+    position: relative;
     display: flex; 
     width: 480px;
     align-items: center;  
     justify-content: center; 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; 
     margin-bottom: 20px;
 }
 
@@ -1279,23 +1291,31 @@ label{
     justify-content: center;
 }
 form{
+    position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     background-color: white;
-    width: 90%;
+    width: 100%;
     max-width: 450px;
-    padding: 2vh 4vh;
+    padding: 2vh 4vh; 
+}
+
+.fa-google{
+    position: absolute;
+    left: 30px;
+    bottom: 35px;
+    color: white;
+    padding: 8px;
+    border-radius: 40px;
+    background: linear-gradient(red, yellow ,rgb(86, 86, 243));
+    transition: 2s;
 }
 
 .contac button{
     border-radius: 25px;
     color: white;
     font-size: 16px;
-}
-
-.field{
-    margin: 10px;
 }
 
 .contac .line{
