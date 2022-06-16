@@ -1187,8 +1187,8 @@ contact_section
         display: block;
     }
 
-    .form{
-        width: 60%;
+    form{
+        width: 80%;
     }
     .contac .title h1{
         color: rgb(121, 118, 118);
@@ -1242,26 +1242,29 @@ iframe{
     transition: 1s;
 }
 .fa-twitter{
-    background-color: wheat;
+    background-color: rgb(124, 124, 223);
     color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 10px;
     transition-duration: 1s;
 }
 .fa-twitter:hover{
-    background-color: rgb(124, 124, 223);
+    background-color: blue;
 }
 .fa-facebook{
-    color: white;
+    color: rgb(124, 124, 223);
+    background: white;
+    padding: 12px 12px 0px 10px;
+    border-radius: 13px;
     transition-duration: 1s;
 }
 .fa-facebook:hover{
-    color: rgb(124, 124, 223);
+    background-color: rgb(233, 232, 232);
 }
 .fa-whatsapp{
-    background-color: wheat;
+    background-color: rgb(33, 209, 33);
     color: white;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 10px;
     transition-duration: 1s;
 }
