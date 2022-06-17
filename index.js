@@ -1,18 +1,17 @@
-const navSlide = () => {
-    const burger = document.querySelector('.burger')
-    const nav = document.querySelector('.nav-links')
-    // Toggle Now
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
 
-    // buger animation
-        burger.classList.toggle('toggle')    
+const  navSlide = () => {
+    const burger =document.querySelector('.burger');
+    const navLink =document.querySelector('.nav-links');
+
+    burger.addEventListener('click', () => {
+        navLink.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
     });
 }
 
 navSlide()
 
-var icon =document.getElementById("icon")
+var iconEl =document.getElementById("icon")
 
 icon.onclick = function () {
     document.body.classList.toggle("dark-theme");
