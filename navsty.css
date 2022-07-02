@@ -1205,6 +1205,7 @@ contact_section
     flex-direction: column;
 }
 .mapping{
+    border: 3px solid #f19a92;
     flex: 0 0 60%;
     background-color: rgb(121, 118, 118);
     width: 100%;
@@ -1298,23 +1299,11 @@ form{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    background-color: white;
+    background-color: transparent;
     width: 100%;
     max-width: 450px;
     padding: 2vh 4vh; 
 }
-
-.fa-google{
-    position: absolute;
-    left: 30px;
-    bottom: 35px;
-    color: white;
-    padding: 8px;
-    border-radius: 40px;
-    background: linear-gradient(red, yellow ,rgb(86, 86, 243));
-    transition: 2s;
-}
-
 .contac button{
     border-radius: 25px;
     color: white;
@@ -1338,7 +1327,8 @@ input, textarea{
     outline: none;
     border-radius: 10px;
     font-size: 17px;
-    background-color: rgb(241, 239, 239);
+    border: 2px solid #f19a92;
+    background-color: transparent;
 }
 
 button{
