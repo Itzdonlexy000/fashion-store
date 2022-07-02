@@ -164,9 +164,9 @@ first_section_starts
 }
 .blogo{
     margin: auto;
-    width: 60%;
+    width: 40%;
     border-radius: 70px;
-    height: 120px;
+    height: 90px;
     background: linear-gradient(#ffa69e, black); 
     color: wheat;
     display: flex;
@@ -179,7 +179,7 @@ first_section_starts
         width: 70%;
     }
     .blogo{
-        width: 100%; 
+        width: 70%; 
     }
 }
 .blogo p{
@@ -192,9 +192,9 @@ first_section_starts
     position: absolute;
     content: '';
     top: 18%;
-    left: -60px;
+    left: -45px;
     height: 48px;
-    width: 63%;
+    width: 50%;
     background: rgb(233, 232, 232);
     border-top-left-radius: 100px;
 }
@@ -202,9 +202,9 @@ first_section_starts
     position: absolute;
     content: '';
     bottom: 4px;
-    left: -70px;
+    left: -40px;
     height: 9px;
-    width: 254%;
+    width: 180%;
     border-radius: 9px;
     background: rgb(233, 232, 232);
 }
